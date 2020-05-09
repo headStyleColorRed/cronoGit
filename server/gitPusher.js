@@ -17,7 +17,7 @@ function addNewData() {
 }
 
 function pushToGitHub() {
-    shell.exec(`sh ../../pushToGit.sh ${number}`)
+    shell.exec(`sh ../pushToGit.sh ${number}`)
 }
 
 module.exports = {
