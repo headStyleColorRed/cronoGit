@@ -5,7 +5,7 @@ const fs = require("fs")
 
 let number = 0
 
-schedule.scheduleJob('0 0 * * *', () => { 
+schedule.scheduleJob('0 23 * * *', () => { 
     addNewData()
  })
 
